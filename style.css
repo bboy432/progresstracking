@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2b2b2b; /* Dark mode background color */
+}
+
+header {
+  background-color: #323232; /* Adjust if needed for dark mode contrast */
+  padding: 20px;
+  text-align: center;
+  color: #6a6a6a; /* Text color for header */
+}
+
+h1 {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #575757;  
+  border-radius: 5px;  
+  cursor: pointer;
+  background-color: #45454500;  
+  color: #6a6a6a;  
+}
+
+.button h2 {
+  margin: 5px;
+}
+
+.button img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Add CSS styles for dark mode here (e.g., background-color for body, button colors, text color) */
+
+.dark-mode {
+  /* Add dark mode styles here */
+}
